@@ -1,0 +1,36 @@
+/* Header */
+
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/banner2.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 70vh; 
+	background-attachment: fixed;
+}
+
+/* formulario */
+
+#form {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    padding-left: 80px;
+    float: left;
+}
+
+.parag {
+    padding-top: 80px;
+    padding-right: 80px;
+    float: right;
+}
+
+input {
+    height: 30px;
+}
+
+textarea {
+    height: 80px;
+}
+

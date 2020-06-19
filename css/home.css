@@ -1,0 +1,230 @@
+/* Header */
+
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/banner1.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh; 
+	background-attachment: fixed;
+}
+
+.text-box {
+	position: absolute;
+	width: 1140px;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.logo {
+	height: 60px;
+	width: auto;
+	float: left;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.main-nav {
+	float: right;
+	list-style: none;
+    margin-top: 55px;
+    margin-right: 80px;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+	padding: 8px 0;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%;
+	border-bottom: 2px transparent;
+	transition: border-bottom 0.1s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+	border-bottom: 2px solid #f7e900;
+}
+
+/* Sobre */
+
+.section-about{
+    margin-top: 90px;
+	background-color: #ffffff;
+}
+
+.steps-box:last-child {
+    padding-left: 3%;
+    width: 50%;
+	padding-top: 70px;
+}
+
+.about {
+    width: 40%;
+    height: 500px;
+    padding-right: 25px;
+    float: right;
+    object-fit: cover;
+}
+
+.geral-junto {
+    padding-top: 50px;
+}
+
+/* Galeria */
+
+.gallery {
+    position: absolute;
+    top: 270%;
+    margin-bottom: 200px;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
+    max-height: 30vw;
+    overflow: hidden;
+  }
+  
+  .gallery__stream {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
+  }
+  
+  .gallery__item {
+    position: absolute;
+    width: 50%;
+    height: 300px;
+    transition: 1s all ease;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 5px;
+   
+  }
+
+  /* Itens */
+
+.gallery__item:nth-child(1) {
+    left: 0;
+    z-index: 1;
+    transform: translateX(-100%) scale(.8);
+  }
+  
+  .gallery__item:nth-child(2) {
+    left: 0;
+    z-index: 2;
+    transform: translateX(-50%) scale(.8);
+  }
+  
+  .gallery__item:nth-child(3) {
+    left: 50%;
+    z-index: 4;
+    transform: translateX(-50%) scale(1);
+  }
+  
+  .gallery__item:nth-child(4) {
+    left: 100%;
+    z-index: 2;
+    transform: translateX(-50%) scale(.8);
+  }
+  
+  .gallery__item:nth-child(n+5) {
+    left: 100%;
+    z-index: 1;
+    transform: scale(.8);
+  }
+
+  /* Backgrounds */
+
+.bg-1 {
+    background-image: url(../img/peraltah.jpg);
+  }
+  
+  .bg-2 {
+    background-image: url(../img/amyh.jpg);
+  }
+  
+  .bg-3 {
+    background-image: url(../img/boyleh.jpg);
+  }
+  
+  .bg-4 {
+    background-image: url(../img/holth.jpg);
+  }
+  
+  .bg-5 {
+    background-image: url(../img/terryh.jpg);
+  }
+  
+  .bg-6 {
+    background-image: url(../img/ginah.jpg);
+  }
+  
+  .bg-7 {
+    background-image: url(../img/scolih.jpg);
+  }
+
+  .bg-8 {
+    background-image: url(../img/hitchcockh.jpg);
+  }
+
+  /* Controles */
+
+.gallery__prev,
+.gallery__next {
+  position: absolute;
+  top: 50%;
+  z-index: 4;
+  width: 50%;
+  height: 100%;
+  transform: translateX(-50%) translateY(-50%) scale(.8);
+  cursor: pointer;
+}
+
+.gallery__prev {
+  left: 0;
+}
+
+.gallery__next {
+  left: 100%;
+}
+
+/* Produtos */
+
+.section-product{
+margin-top: 800px;
+background-color: #ffffff;
+}
+
+.steps-box:last-child {
+  padding-left: 3%;
+  width: 50%;
+padding-top: 70px;
+}
+
+.imgproduct {
+  width: 40%;
+  height: 500px;
+  padding-right: 25px;
+  float: right;
+  object-fit: cover;
+}
+
+.product {
+  padding-top: 50px;
+}
+
+
+
+
+
+
+
