@@ -1,5 +1,11 @@
 @media screen and (min-width:320px) and (max-width:568px) /*largura minima e maxima */
 {
+  body {
+      margin: 0px auto;
+      padding: 0 auto;
+  }
+
+
    h1 {
        padding-top: 0px;
        width: 10px;
@@ -67,7 +73,7 @@
 
 }
 
-@media screen and (min-width:200px) and (max-width:1080px) /*largura minima e maxima */
+@media screen and (min-width:900px) and (max-width:1080px) /*largura minima e maxima */
 {
     .gallery {
 
