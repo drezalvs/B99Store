@@ -223,7 +223,20 @@ padding-top: 70px;
 }
 
 
+/* rodapé */
+footer .paragrafoh {
+  margin-top: 50px;
+  display: inline-block;
+	bottom: 0px;
+  width: 100%;
+  background: #f7e900;
+ 
+}
 
+.paragrafo2 {
+  text-align: center;
+  font-size: 12px;
+}
 
 
 
