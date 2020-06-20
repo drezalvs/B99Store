@@ -34,3 +34,12 @@ textarea {
     height: 80px;
 }
 
+.btn-contact {
+    background-color: #fff;
+    border: 1px solid #f7e900;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    text-align: center;
+}

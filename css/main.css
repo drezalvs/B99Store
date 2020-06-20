@@ -147,14 +147,4 @@ p {
 	text-indent: 50px;
 }
 
-/*rodape começa aqui */
 
-.paragrafo-rodape {
-	margin-top: 160px;
-	display: flex;
-	justify-content: center;
-  }
-  
-  .desenvolvido {
-	font-size: 12px;
-  }

@@ -1,0 +1,43 @@
+/* Header */
+
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/banner4.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 70vh; 
+	background-attachment: fixed;
+}
+
+/* Produto */
+.card_img{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 25px;
+    padding-left: 30px;
+}
+
+.small_img{
+    height: 100%;
+    cursor: pointer;
+    transition: all linear 0.4s;
+}
+
+.small_img:hover{
+    transform: scale(1.1);
+}
+
+.row2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
